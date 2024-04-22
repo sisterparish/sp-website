@@ -1,0 +1,324 @@
+{
+    "sections": {
+      "section_image_FYM783": {
+        "type": "section-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_81f8feba4b5845efaccc93bb9df3f1e5.webp",
+          "height": "original-height",
+          "enable_mobile_height": false,
+          "mobile_height": "original-height-mobile",
+          "enable_stretch": false,
+          "image_position": "center",
+          "bg_color_secondary": false,
+          "width": "wrapper--full-padded",
+          "padding_top": 100,
+          "padding_bottom": 100
+        }
+      },
+      "text": {
+        "type": "section-text",
+        "blocks": {
+          "heading": {
+            "type": "heading",
+            "settings": {
+              "text": "<p>Our Story<\/p>",
+              "size": 100,
+              "heading_highlight_type": "italics",
+              "highlight_color": "#d43747",
+              "highlight_text_color": "#000000"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Sister Parish Design is an iconic American heritage textile and wallcovering brand. Founded in 1933 by legendary American interior designer Sister Parish, SPD is a fourth generation female owned and operated family business with a history of providing timeless and effortless designs to the great American houses of the past and future. Run by CEO Susan Crater and her daughter, Creative Director Eliza Crater Harris, their mission is to encourage, inspire and educate designers and design enthusiasts alike to create homes that value authenticity, comfort and connection. Susan and Eliza are proud to be known for their commitment to historically driven design and truly believe that it is through this lens that great American houses are born.<\/p>",
+              "size": 150
+            }
+          }
+        },
+        "block_order": [
+          "heading",
+          "text"
+        ],
+        "settings": {
+          "text_position": "center",
+          "bg_color_secondary": false,
+          "text_color": "text-dark",
+          "width": "wrapper--full-padded",
+          "padding_top": 60,
+          "padding_bottom": 32
+        }
+      },
+      "b9c62683-9b2e-446b-a6d7-4c84b6c53543": {
+        "type": "section-text",
+        "blocks": {
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-heading-1": {
+            "type": "heading",
+            "settings": {
+              "text": "<p>Our Legacy<\/p>",
+              "size": 100,
+              "heading_highlight_type": "italics",
+              "highlight_color": "#d43747",
+              "highlight_text_color": "#000000"
+            }
+          },
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-text-1": {
+            "type": "text",
+            "settings": {
+              "text": "<p>At only 23, Sister Parish opened her decorating business in 1933. Despite the depression and WW2, Mrs. Henry Parish II flourished and decorating the White House for the Kennedys compelled her to bring on a new talent,  Albert Hadley. He was made partner shortly thereafter and the iconic firm Parish Hadley was born. Sister passed away in 1994 and made a lasting mark on American design. The New York Times obituary noted, \"Mrs Parish's six decades of decorating epitomized the rise of women in her own and other professions in 20th century America.\"  Following in Sister's footsteps, Susan (Sister's granddaughter) and Eliza (Sister's great granddaughter) have continued to bring Sister’s iconic ideas, designs and spirit into the world of American design and are proud to continue her legacy.<\/p>",
+              "size": 150
+            }
+          },
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-button-1": {
+            "type": "button",
+            "settings": {
+              "button_text": "Click Here for a Timeline with Key Dates",
+              "button_link": "https:\/\/sisterparishdesign.com\/pages\/timeline",
+              "button_color": "btn--black",
+              "button_style": "btn--solid-border",
+              "button_size": "btn--large"
+            }
+          }
+        },
+        "block_order": [
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-heading-1",
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-text-1",
+          "template--16787069075677__b9c62683-9b2e-446b-a6d7-4c84b6c53543-button-1"
+        ],
+        "settings": {
+          "text_position": "center",
+          "bg_color_secondary": false,
+          "text_color": "text-dark",
+          "width": "wrapper--full-padded",
+          "padding_top": 60,
+          "padding_bottom": 32
+        }
+      },
+      "columns": {
+        "type": "section-columns",
+        "blocks": {
+          "column-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_a57448cb474347b3a056b72ea242d2c6.webp",
+              "title": "Susan Crater",
+              "text": "<p>Chief Executive Officer<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "column-1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_8c51f9a769d7474c8038ac1c35518c5d.webp",
+              "title": "Eliza Crater Harris",
+              "text": "<p>Chief Creative Officer<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "column-2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_97b8e290ca5740c7a27dae0bfae48303.webp",
+              "title": "Doug Crater",
+              "text": "<p>Chief Financial Officer<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          }
+        },
+        "block_order": [
+          "column-0",
+          "column-1",
+          "column-2"
+        ],
+        "settings": {
+          "title": "Our Team",
+          "align_text": "text-center",
+          "columns": 3,
+          "equalize_height": false,
+          "image_aspect_ratio": 0.8,
+          "show_images": true,
+          "heading_size": 120,
+          "text_size": 100,
+          "bg_color_secondary": false,
+          "width": "wrapper",
+          "padding_top": 60,
+          "padding_bottom": 32
+        }
+      },
+      "fcb51fe2-05fd-453a-80ed-f0d04d1f84ab": {
+        "type": "section-columns",
+        "blocks": {
+          "3b85cedd-1c2f-4559-bf75-27777a2b8fd1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_941a6cc9d07944d695790f9e004699af.webp",
+              "title": "Claire Fields",
+              "text": "<p>Sales Account Manager<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "2089ab43-17da-4822-b2a8-70fceeab2280": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_91c402ed42b141af962af4a2e7767b40.webp",
+              "title": "Ciara Orchard",
+              "text": "<p>Customer Service Representative and Design Consultant<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "22c7a15a-2fd2-4473-b505-e71c593e723d": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_a1551b09badc4ac993c1bbdf4bd0631d.webp",
+              "title": "Kristen Austin",
+              "text": "<p>Customer Service Representative and Production Associate<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          }
+        },
+        "block_order": [
+          "3b85cedd-1c2f-4559-bf75-27777a2b8fd1",
+          "2089ab43-17da-4822-b2a8-70fceeab2280",
+          "22c7a15a-2fd2-4473-b505-e71c593e723d"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "text-center",
+          "columns": 3,
+          "equalize_height": false,
+          "image_aspect_ratio": 0.8,
+          "show_images": true,
+          "heading_size": 120,
+          "text_size": 100,
+          "bg_color_secondary": false,
+          "width": "wrapper",
+          "padding_top": 60,
+          "padding_bottom": 32
+        }
+      },
+      "8f51111e-1ec5-41f8-8874-4858ff15b2da": {
+        "type": "section-columns",
+        "blocks": {
+          "aaea13cb-da11-44d9-8ca9-3ee905e0bc87": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_db07c2ed86634865a73661f6009141b5.webp",
+              "title": "Jon Hinz",
+              "text": "<p>Office Manager<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "554c2db7-fd0a-48ae-843a-25c1aa1854b1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_087743e6ce7b425fb374b36fd4813c45.webp",
+              "title": "Nancy Kerans",
+              "text": "<p>Shipping Assistant<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          },
+          "f41741b4-196d-449f-b0f4-3c5b03fb099d": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_89e8d743696748188f55f1736bdae30c.webp",
+              "title": "Parrish Duncan\\",
+              "text": "<p>Assistant Creative Director<\/p>",
+              "button_text": "",
+              "button_link": "",
+              "button_color": "btn--black",
+              "button_style": "btn--text",
+              "button_size": "btn--small",
+              "video_link_popup": "",
+              "video_link_color": "text-dark"
+            }
+          }
+        },
+        "block_order": [
+          "aaea13cb-da11-44d9-8ca9-3ee905e0bc87",
+          "554c2db7-fd0a-48ae-843a-25c1aa1854b1",
+          "f41741b4-196d-449f-b0f4-3c5b03fb099d"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "text-center",
+          "columns": 3,
+          "equalize_height": false,
+          "image_aspect_ratio": 0.8,
+          "show_images": true,
+          "heading_size": 120,
+          "text_size": 100,
+          "bg_color_secondary": false,
+          "width": "wrapper",
+          "padding_top": 60,
+          "padding_bottom": 32
+        }
+      },
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "show_page_title": true,
+          "bg_color_secondary": false,
+          "padding_top": 60,
+          "padding_bottom": 60
+        }
+      }
+    },
+    "order": [
+      "section_image_FYM783",
+      "text",
+      "b9c62683-9b2e-446b-a6d7-4c84b6c53543",
+      "columns",
+      "fcb51fe2-05fd-453a-80ed-f0d04d1f84ab",
+      "8f51111e-1ec5-41f8-8874-4858ff15b2da",
+      "main"
+    ]
+  }

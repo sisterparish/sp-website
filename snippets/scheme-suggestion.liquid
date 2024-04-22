@@ -1,0 +1,29 @@
+{% for variant in product.variants %}
+    {% if variant.metafields.custom.scheme_suggestions != blank %}
+      <div class="scheme-suggestion-wrapper" data-product-id="{{ product.id }}">
+        <div class="scheme-suggestion-header"><h2>Coordinates</h2></div>
+        <div class="scheme-suggestion-container" data-variant-id="{{ variant.id }}">
+          {% for p in variant.metafields.custom.scheme_suggestions.value %}
+            <a class="full-height-slide" href="{{ p.url }}">
+              <div class="p-card">
+                <h3 class="p-card-title">{{ p.product.title }}<br>
+                <span style="font-size: small">{{ p.option1 }}</span></h3>
+                <div>
+                  <img src="{{ p.featured_media | img_url: '100' }}" loading="lazy" alt="{{ p.featured_media.alt }}" width="100" height="100">
+                  <h3 class="p-card-link">Order Sample</h3>
+                </div>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+{% endfor %}
+<style>
+  .scheme-suggestion-wrapper .slick-list.draggable{
+    min-width: 100% !important;
+  }
+  .scheme-suggestion-wrapper .slick-track{
+    min-width: 100% !important;
+  }
+</style>

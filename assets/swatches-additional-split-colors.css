@@ -1,0 +1,269 @@
+span.swatch__label::after {  
+    content: "" !important;
+    display: block !important;
+    border-radius: 50% !important;
+    width: calc(100%) !important;
+    height: calc(100%) !important;
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+    z-index: 2 !important;
+    clip-path: inset(0 0 0 50%) !important;
+    left: unset !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: unset !important;
+  }
+
+.swatch-blue-grey-multi {
+    background-color: #b7afa4 !important;
+}
+.swatch-blue-grey-multi:after {
+    background-color: #92a1a6 !important;
+}
+.swatch-blue-brown {
+    background-color: #62778c !important;
+}
+.swatch-blue-brown:after {
+    background-color: #503f2f !important;
+}
+.swatch-blue-orange {
+    background-color: #526d98 !important;
+}
+.swatch-blue-orange:after {
+    background-color: #c13726 !important;
+}
+.swatch-blue-pink {
+    background-color: #e0596c !important;
+}
+.swatch-blue-pink:after {
+    background-color: #455e8f !important;
+}
+.swatch-blue-red {
+    background-color: #526d98 !important;
+}
+.swatch-blue-red:after {
+    background-color: #a23530 !important;
+}
+.swatch-brown-red {
+    background-color: #906248 !important;
+}
+.swatch-brown-red:after {
+    background-color: #c35053 !important;
+}
+.swatch-chocolate-on-natural {
+    background-color: #72522c !important;
+}
+.swatch-chocolate-on-natural:after {
+    background-color: #c7bfb2 !important;
+}
+.swatch-chocolate-plum {
+    background-color: #7c665b !important;
+}
+.swatch-chocolate-plum:after {
+    background-color: #593f42 !important;
+}
+.swatch-dark-brown-on-natural {
+    background-color: #463233 !important;
+}
+.swatch-dark-brown-on-natural:after {
+    background-color: #c8c5be !important;
+}
+.swatch-emerald-green-on-natural {
+    background-color: #315e23 !important;
+}
+.swatch-emerald-green-on-natural:after {
+    background-color: #cbbeae !important;
+}
+.swatch-fern-on-natural {
+    background-color: #73916b !important;
+}
+.swatch-fern-on-natural:after {
+    background-color: #cbbeae !important;
+}
+.swatch-fern-paprika {
+    background-color: #464833 !important;
+}
+.swatch-fern-paprika:after {
+    background-color: #b8694b !important;
+}
+.swatch-green-gold {
+    background-color: #87a27f !important;
+}
+.swatch-green-gold:after {
+    background-color: #a47e3d !important;
+}
+.swatch-green-red {
+    background-color: #92a681 !important;
+}
+.swatch-green-red:after {
+    background-color: #c94b59 !important;
+}
+.swatch-grey-blue-on-natural {
+    background-color: #5a6980 !important;
+}
+.swatch-grey-blue-on-natural:after {
+    background-color: #c7bfb2 !important;
+}
+.swatch-heron-paprika {
+    background-color: #c0bdb8 !important;
+}
+.swatch-heron-paprika:after {
+    background-color: #a8594c !important;
+}
+.swatch-heron-parma {
+    background-color: #c0bdb8 !important;
+}
+.swatch-heron-parma:after {
+    background-color: #9e8392 !important;
+}
+.swatch-indigo-gold {
+    background-color: #152a63 !important;
+}
+.swatch-indigo-gold:after {
+    background-color: #a47e3d !important;
+}
+.swatch-indigo-ochre {
+    background-color: #354165 !important;
+}
+.swatch-indigo-ochre:after {
+    background-color: #d58b2c !important;
+}
+.swatch-light-blue-red {
+    background-color: #90b0c9 !important;
+}
+.swatch-light-blue-red:after {
+    background-color: #c94b59 !important;
+}
+.swatch-ochre-indigo, .swatch-ochre-and-indigo, .swatch-ochre-on-indigo {
+    background-color: #daa348 !important;
+}
+.swatch-ochre-indigo:after, .swatch-ochre-and-indigo:after, .swatch-ochre-on-indigo:after {
+    background-color: #34437a !important;
+}
+.swatch-olive-green-on-natural {
+    background-color: #908847 !important;
+}
+.swatch-olive-green-on-natural:after {
+    background-color: #c7bfb2 !important;
+}
+.swatch-orange-chocolate {
+    background-color: #df8748 !important;
+}
+.swatch-orange-chocolate:after {
+    background-color: #644026 !important;
+}
+.swatch-light-blue--red {
+    background-color: #bbc9ca !important;
+}
+.swatch-light-blue--red:after {
+    background-color: #c6515a !important;
+}
+.swatch-petite-fleur-ochre-indigo {
+    background-color: #d6a94f !important;
+}
+.swatch-petite-fleur-ochre-indigo:after {
+    background-color: #1c2543 !important;
+}
+.swatch-pink-blue, .swatch-pink-on-blue {
+    background-color: #c55058 !important;
+}
+.swatch-pink-blue:after, .swatch-pink-on-blue:after {
+    background-color: #3c5389 !important;
+}
+.swatch-pink-yellow {
+    background-color: #cf8c84 !important;
+}
+.swatch-pink-yellow:after {
+    background-color: #f3dda4 !important;
+}
+.swatch-plum-parma {
+    background-color: #9e8392 !important;
+}
+.swatch-plum-parma:after {
+    background-color: #b894a2 !important;
+}
+.swatch-red-on-white-ground {
+    background-color: #a3342d !important;
+}
+.swatch-red-on-white-ground:after {
+    background-color: #f8f6f7 !important;
+}
+.swatch-sage-pink {
+    background-color: #8e9687 !important;
+}
+.swatch-sage-pink:after {
+    background-color: #d8baaf !important;
+}
+.swatch-wheat-raspberry {
+    background-color: #d1ac78 !important;
+}
+.swatch-wheat-raspberry:after {
+    background-color: #932c4a !important;
+}
+.swatch-white-on-natural {
+    background-color: #f1f2e8 !important;
+}
+.swatch-white-on-natural:after {
+    background-color: #c8c5be !important;
+}
+.swatch-willow-parma {
+    background-color: #8b8761 !important;
+}
+.swatch-willow-parma:after {
+    background-color: #b893b2 !important;
+}
+.swatch-blue-lettuce-green {
+    background-color: #4a6183 !important;
+}
+.swatch-blue-lettuce-green:after {
+    background-color: #87a27f !important;
+}
+.swatch-pink-red {
+    background-color: #cf8c84 !important;
+}
+.swatch-pink-red:after {
+    background-color: #a23530 !important;
+}
+.swatch-pink-raspberry {
+    background-color: #cf8c84 !important;
+}
+.swatch-pink-raspberry:after {
+    background-color: #932c4a !important;
+}
+.swatch-sage-green-blue {
+    background-color: #acb49b !important;
+}
+.swatch-sage-green-blue:after {
+    background-color: #637990 !important;
+}
+.swatch-red-blue-green-yellow {
+    background-color: #a23530 !important;
+}
+.swatch-red-blue-green-yellow:after {
+    background-color: #5f7743 !important;
+}
+.swatch-blue-saffron {
+    background-color: #354165 !important;
+}
+.swatch-blue-saffron:after {
+    background-color: #d58b2c !important;
+}
+.swatch-grass-green-blue {
+    background-color: #5f7743 !important;
+}
+.swatch-grass-green-blue:after {
+    background-color: #637990 !important;
+}
+.swatch-seafoam-shell-pink {
+    background-color: #cb999c !important;
+}
+.swatch-seafoam-shell-pink:after {
+    background-color: #91a4a2 !important;
+}
+.swatch-robins-egg-blue-with-paprika {
+    background-color: #718687 !important;
+}
+.swatch-robins-egg-paprika {
+    background-color: #dbf0f0 !important;
+}

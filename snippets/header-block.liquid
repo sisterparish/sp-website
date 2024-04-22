@@ -1,0 +1,78 @@
+{% comment %}
+  Header block content, used in both mobile header and desktop header.
+  Accepts a block, returns the content to render for that block.
+
+  Required params:
+  * block: the block that should be rendered.
+
+  {% render 'header-block', block: block %}
+
+{% endcomment %}
+
+{%- case block.type -%}
+  {%- when 'image' -%}
+    {%- liquid
+      assign block_id = 'headerBlock--' | append: block.id
+      assign block_selector_id = '#' | append: block_id
+
+      assign width_class = 'menu__block--narrow'
+      if block.settings.wide_image
+        assign width_class = 'menu__block--wide'
+      endif
+
+      assign heading_size = block.settings.heading_size | times: 0.01
+      assign heading_size_medium = heading_size
+      if heading_size > 1.5
+        assign heading_size_medium = heading_size | times: 0.85
+      endif
+      if heading_size > 2
+        assign heading_size_medium = heading_size | times: 0.7
+      endif
+      if heading_size > 2.5
+        assign heading_size_medium = heading_size | times: 0.55
+      endif
+    -%}
+
+    <div id="{{ block_id }}" class="{{ width_class }}" {{ block.shopify_attributes }}>
+      {%- style -%}
+        {{ block_selector_id }} .hero__title {
+          --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size_medium }});
+        }
+        @media screen and (min-width: 1024px) {
+          {{ block_selector_id }} .hero__title {
+            --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size }});
+          }
+        }
+      {%- endstyle -%}
+
+      <div class="header__dropdown__image">
+        {%- if block.settings.link != blank -%}
+          <a href="{{ block.settings.link }}" class="link-over-image">
+        {%- endif -%}
+
+          {%- if block.settings.title != blank or block.settings.link_text != blank -%}
+            <div class="hero__content__wrapper align--bottom-left">
+              <div class="hero__content backdrop--radial">
+                {%- if block.settings.title != blank -%}
+                  <h2 class="hero__title">
+                    {{ block.settings.title | escape }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.link_text != blank -%}
+                  <p class="hero__description">
+                    {{ block.settings.link_text | escape }}
+                  </p>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+
+        {%- if block.settings.link != blank -%}
+          </a>
+        {%- endif -%}
+
+        {%- render 'image-fill', img_object: block.settings.image, aspect_ratio: block.settings.aspect_ratio -%}
+      </div>
+    </div>
+
+{%- endcase -%}

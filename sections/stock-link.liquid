@@ -1,0 +1,179 @@
+{% style %}
+  #no-data-message, #stock-table.hide-table {
+    display: none;
+  }
+  #no-data-message.show-message {
+    display: flex;
+    justify-content: center;
+  }
+  .distribution {
+      max-width: 1080px;
+      padding: 30px;
+      margin: 0 auto 30px;
+      text-align: center;
+  }
+  .distribution .sku-id, .distribution .sku-desc {
+      font-size: 2.26667rem;
+      line-height: 1.2;
+  }
+  .distribution > div {
+      margin: 30px 0;
+      margin-bottom: 0px;
+      display: block;
+  }
+  .distribution > div h3 {
+      margin-bottom: 15px;
+      font-size: 1.333333rem;
+      line-height: 1.2;
+      font-family: var(--FONT-STACK-BODY);
+  }
+  .distribution table {
+      border: none;
+  }
+  .distribution table td, .distribution table th {
+      border: 1px solid transparent;
+      height: 48px;
+  }
+  .distribution table th {
+      background: #f0f0f0;
+      font-weight: 600;
+      padding: 0 12px;
+      text-align: left;
+  }
+  .distribution tr td {
+      font-size: 18px;
+  }
+  .distribution tr:nth-child(odd) td {
+      background: #e4e4e4;
+  }
+  #no-data-message {
+    flex-direction: column;
+    align-items: center;
+  }
+  #no-data-message span {
+    font-size: 16px;
+  }
+  #no-data-message .second-copy {
+    text-wrap: wrap;
+    text-align: center;
+    width: 25%;
+  }
+  @media only screen and (max-width: 769px) {
+      #no-data-message .second-copy {
+      text-wrap: wrap;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  {% endstyle %}
+  
+  <div id="stock-table">
+    <div class="page-width distribution">
+      <h1 id="sku-id"></h1>
+      <h2 id="sku-desc"></h2>
+      <div>
+        <h3>Current Inventory</h3>
+        <table>
+          <thead>
+            <tr>
+              <th for="lot">Dye Lot</th>
+              <th for="piece">Piece Number</th>
+              <th for="available">Qty Available</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div id="dyeLot-Copy" style="text-align:left;max-width:fit-content;margin:20px auto 0;">
+          <label>Largest Dye Lot </label><span id="largest-lot"></span>
+          <br>
+          <label>Total Available </label><span id="total-lot"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="no-data-message">
+    <span>This item is currently out of stock but can be printed.</span>
+    <span class="second-copy">Please reach out to customer service at customerservice@sisterparishdesign.com.</span>
+  </div>
+  
+  <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const urlString = window.location.href
+    const url = new URL(urlString)
+    const sku = url.searchParams.get('sku')
+    // For Testing - const sku = 'SPP-0300-22'
+    const fetchURL = `https://8838637.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=1517&deploy=1&compid=8838637&h=ced595948a301c7795d7&skuid=${sku}`
+    let isWallpaper = false
+    if ( url.searchParams.get('type') === 'wallpaper' ) {
+      isWallpaper = true
+    }
+  
+    fetch(fetchURL).then((response) => response.json().then((res) => handleSkuData(res)))
+  
+    function handleSkuData(res) {
+      //console.log(res)
+      if ( res.length ) {
+        let largestQty = 0
+        let totalQty = 0
+        const skuID = document.getElementById('sku-id')
+        const skuDesc = document.getElementById('sku-desc')
+        const largestLot = document.getElementById('largest-lot')
+        const totalLot = document.getElementById('total-lot')
+        const table = document.getElementById('stock-table')
+        const tableBody = table.querySelector('tbody')
+  
+        skuID.innerText = res[0].itemid
+        skuDesc.innerText = res[0].salesdescription
+  
+        res.forEach(r => {
+          console.log(r)
+          let qty = parseFloat(r.quantityavailable)
+          let dyeLot = ''
+          let pieceNumber = ''
+          let details = r.invDetail.toLowerCase()
+          console.log(details)
+          if ( details.includes('piece ') ) {
+            pieceNumber = parseInt(details.split(' ').pop())
+            dyeLot = details.split(' piece').shift()
+          } else {
+            pieceNumber = ''
+            dyeLot = details
+          }
+          if ( qty > largestQty ) {
+            largestQty = qty
+          }
+  
+          totalQty = totalQty + qty
+  
+          let unit = 'Yards'
+  
+          if ( isWallpaper ) {
+            unit = 'Rolls'
+          }
+  
+          const rowElement = document.createElement('tr')
+          rowElement.innerHTML = `<td for="lot">${dyeLot.replace('lot', '').replace('-', '').replace(' ', '')}</td><td for="piece">${pieceNumber}</td><td for="available"><span>${qty}</span><small> ${unit}</small></td>`
+          tableBody.appendChild(rowElement)
+          largestLot.innerHTML = `${largestQty} <small>${unit}</small>`
+          totalLot.innerHTML = `${totalQty} <small>${unit}</small>`
+        })
+      } else {
+        const table = document.getElementById('stock-table');
+        const tableBody = table.querySelector('tbody');
+        const rowElement = document.createElement('tr');
+        rowElement.innerHTML = `<td for="lot"></td><td for="piece"></td><td for="available"><span></span><small></small></td>`
+        tableBody.appendChild(rowElement);
+  
+        document.getElementById('dyeLot-Copy').classList.add('hide');
+        document.getElementById('no-data-message').classList.add('show-message');
+      }
+    }
+  })
+  </script>
+  
+  {% schema %}
+  {
+    "name": "Stock Link Table",
+    "settings": []
+  }
+{% endschema %}

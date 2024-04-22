@@ -1,0 +1,174 @@
+{%- comment -%} /templates/customers/login.liquid {%- endcomment -%}
+{% style %}
+  .page-customer__flex-box {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  .wrapper.wrapper-login, .wrapper.wrapper-account {
+    margin: 0;
+    padding: 0;
+    max-width: 30%;
+  }
+  .wrapper.wrapper-login .form-vertical-wrapper, .wrapper.wrapper-account .form-vertical-wrapper{
+    max-width: 100%;
+  }
+  .wrapper-account .section__heading {
+    margin: 0;
+  }
+  .page-customer__flex-box .section__header, .page-customer__flex-box .section__title {
+    padding: 30px 0;
+    margin: 0 0 30px;
+    background: #f0f0f0;
+  }
+  .page-customer__flex-box .section__heading, .page-customer__flex-box .section__title-text {
+    font-family: minion-pro-display,serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0;
+    color: #f92a2c;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.73333rem;
+  } 
+  .page-customer form {
+    text-align: left;
+  }
+  .page-customer .return {
+    text-align: right;
+  }
+  .page-customer .form-vertical-wrapper button {
+    width: auto;
+  }
+  .page-customer .form-vertical-wrapper p a:before, .page-customer .form-vertical-wrapper p a:after {
+    content: none;
+  }
+  .page-customer .btn--designer-signup {
+    margin-right: 100%;
+    margin-left: 0;
+  }
+  .page-customer .designer-p {
+    text-align: left;
+  }
+  @media screen and (max-width: 769px) {
+    .page-customer__flex-box {
+      margin: 0 var(--gutter);
+      flex-direction: column;
+    }
+    .wrapper.wrapper-login, .wrapper.wrapper-account {
+      max-width: 100%;
+    }
+  }
+{% endstyle %}
+
+<section class="page-customer" data-account-form>
+  <div class="page-customer__flex-box" >
+  <div class="wrapper wrapper-login">
+    <div class="form-vertical-wrapper">
+      <p class="text-left is-hidden" data-recover-success-text>{{ 'customer.recover_password.success' | t }}</p>
+
+      <div id="CustomerLoginForm" class="form-vertical is-hidden" data-login-form>
+        {% form 'customer_login', id: 'CustomerLogin' %}
+          <div class="note form-success" id="ResetSuccess" {% unless form.posted_successfully? %}style="display:none;"{% endunless %}>
+            {{ 'customer.recover_password.success' | t }}
+          </div>
+          <div class="section__header">
+            <h2 class="section__heading account__heading--small">{{ 'customer.login.title' | t }}</h2>
+            {%- if settings.show_spacer_lines -%}
+              <hr class="section__heading-line">
+            {%- endif -%}
+          </div>
+          {{ form.errors | default_errors }}
+          <label for="CustomerEmail" class="label">{{ 'customer.login.email' | t }}</label>
+          <input type="email" name="customer[email]" id="CustomerEmail" class="input--full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus required>
+          {% if form.password_needed %}
+            <label for="CustomerPassword" class="label">{{ 'customer.login.password' | t }}</label>
+            <input type="password" value="" name="customer[password]" id="CustomerPassword" class="input--full{% if form.errors contains 'password' %} error{% endif %}" required>
+          {% endif %}
+          <div class = "return light-gray">
+            {% if form.password_needed %}
+              <p><a href="#RecoverPasswordForm" id="RecoverPassword" data-show-reset>{{ 'customer.login.forgot_password' | t }}</a></p>
+            {% endif %}
+          </div>
+          <button type="submit" class="btn btn--primary btn--solid">{{ 'customer.login.sign_in' | t }}</button>
+        {% endform %}
+      </div>
+
+      <div id="RecoverPasswordForm" class="text-left is-hidden" data-recover-password>
+        <h2 class="account__heading account__heading--small">{{ 'customer.recover_password.title' | t }}</h2>
+        <div class="form-vertical">
+          {% form 'recover_customer_password', id: 'RecoverCustomerPassword' %}
+            {{ form.errors | default_errors }}
+
+            {% if form.posted_successfully? %}
+              <div data-recover-success></div>
+            {% else %}
+              <p class="light-gray">{{ 'customer.recover_password.subtext' | t }}</p>
+            {% endif %}
+
+            <label for="RecoverEmail" class="label">{{ 'customer.recover_password.email' | t }}</label>
+            <input type="email" value="" name="email" id="RecoverEmail" class="input--full" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off" required>
+            <button type="submit" class="btn btn--primary btn--solid">{{ 'customer.recover_password.submit' | t }}</button>
+            <a href = "#CustomerLoginForm" type="button" id="HideRecoverPasswordLink" class="return light-gray" data-hide-reset>{{ 'customer.recover_password.cancel' | t }}</a>
+          {% endform %}
+        </div>
+      </div>
+      {% comment %}
+      If accounts are set as optional, the following will be shown as an option
+      during checkout, not on the default /login page.
+      {% endcomment %}
+      {% if shop.checkout.guest_login %}
+        {%- if settings.show_spacer_lines -%}
+          <hr class="section__heading-line">
+        {%- endif -%}
+        <h2>{{ 'customer.login.guest_title' | t }}</h2>
+        {% form 'guest_login', id: 'GuestLogin' %}
+          <button type="submit" class="btn btn--primary btn--solid">{{ 'customer.login.guest_continue' | t }}</button>
+        {% endform %}
+      {% endif %}
+    </div>
+  </div>
+  <div class="wrapper wrapper-account">
+    <div class="form-vertical-wrapper">
+      <div class="section__header">
+        <h2 class="section__heading account__heading account__heading--small">{{ 'customer.register.title' | t }}</h2>
+        {%- if settings.show_spacer_lines -%}
+          <hr class="section__heading-line">
+        {%- endif -%}
+      </div>
+      <div class="form-vertical">
+        {% form 'create_customer', id: 'CreateCustomer' %}
+          {{ form.errors | default_errors }}
+          <div>
+          <label for="FirstName" class="label">{{ 'customer.register.first_name' | t }}</label>
+          <input type="text" name="customer[first_name]" id="FirstName" class="input--full" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+          <label for="LastName" class="label">{{ 'customer.register.last_name' | t }}</label>
+          <input type="text" name="customer[last_name]" id="LastName" class="input--full" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+          </div>
+          <label for="Email" class="label">{{ 'customer.register.email' | t }}</label>
+          <input type="email" name="customer[email]" id="Email" class="input--full{% if form.errors contains 'email' %} error{% endif %}" {% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off" required>
+          <label for="CreatePassword" class="label">{{ 'customer.register.password' | t }}</label>
+          <input type="password" name="customer[password]" id="CreatePassword" class="input--full{% if form.errors contains 'password' %} error{% endif %}" required>
+          <label for="phone_number">Phone Number</label>
+					<input id="phone_number" type="tel" name="customer[note][phone_number]" />
+          <label for="birthday">Birthday</label>
+					<input id="bithday" type="date" name="customer[note][birthday]" />
+          <input type="hidden" name="customer[tags]" value="newsletter">
+          <input type="checkbox" name="customer[accepts_marketing]" checked="checked" value="true" id="klaviyo_marketing">
+          <label for="marketing">Yes! Sign me up to receive emails </label>
+          <button type="submit" class="btn btn--primary btn--solid">{{ 'customer.register.submit' | t }}</button>
+        {% endform %}
+      </div>
+      <div class="section__title section__title--center">
+        <h2 class="section__title-text">Designer Program</h1>
+      </div>
+              
+      <p class="designer-p">Are you a designer? If you are a design professional interested in shopping with us, please join our designer program.</p>
+  
+      
+      <a class="btn btn--primary btn--solid btn--designer-signup" href="/pages/test-designer-sign-up" class="c-btn c-btn--primary account__form-submit">Learn More</a>
+    </div>
+  </div>
+  </div>
+</section>

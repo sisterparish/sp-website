@@ -1,0 +1,933 @@
+{
+  "sections": {
+    "section_grid_EaPpyQ": {
+      "type": "section-grid",
+      "blocks": {
+        "image_zbce3A": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/Georgina_Lettuce_Green.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/performance",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_GwTFwK": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-04-12_at_9.28.03_AM.png",
+            "overlay_opacity": 20,
+            "text_position": "center",
+            "subheading": "",
+            "title": "SHOP PERFORMANCE",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/performance",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_N8dMBt": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-04-07_at_1.06.51_PM.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/performance",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_zbce3A",
+        "image_GwTFwK",
+        "image_N8dMBt"
+      ],
+      "settings": {
+        "height": "750",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "section_image_GdPLHh": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sister_Parish__NY_Studio__Photo_by_Maura_McEvoy.jpg",
+        "height": "original-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 26
+      }
+    },
+    "section_grid_pbdhBE": {
+      "type": "section-grid",
+      "blocks": {
+        "image_ReBjDW": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/8_4e8320be-2f11-4956-9f41-b382a7e51062.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/sisterparishdesign.com\/products\/dolly-wallpaper?_pos=1&_psq=dolly+wallpaper&_ss=e&_v=1.0",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_dCqw4G": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/9_98bca1cb-525f-4365-9305-f9b1b1689a84.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/sisterparishdesign.com\/collections\/fabric-a-z\/products\/dolly-fabric?variant=32191590137934",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_ReBjDW",
+        "image_dCqw4G"
+      ],
+      "settings": {
+        "height": "auto",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "section_grid_B8xj8h": {
+      "type": "section-grid",
+      "blocks": {
+        "image_nWw3ji": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-04-07_at_1.35.25_PM.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/serendipity-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_r4tx9a": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/f_BTS_March_1.png",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/serendipity-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_nWw3ji",
+        "image_r4tx9a"
+      ],
+      "settings": {
+        "height": "auto",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "section_video_KDQgBP": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "seven-fifty-height",
+        "text_position": "bottom-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e83c9f43892c4adba1a7aacc91b7a955.mp4",
+        "video_link": "",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "<h1><\/h1><h1><\/h1><h1><strong>LA FORTUNA<\/strong><\/h1>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "SHOP NOW",
+        "button_link": "shopify:\/\/products\/la-fortuna-fabric",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_grid_TVNazh": {
+      "type": "section-grid",
+      "blocks": {
+        "image_yPEWw4": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/Blue_Green_LaFortunaRed_Yellow_Fabric_Full_b56d0f43-8788-46b6-9c18-f24ca64889ff.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/la-fortuna-fabric",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_me7fBr": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/LaFortunaNeutral_Fabric_Full_8889cd74-22e1-49fe-a0cb-a24abba7aeb5.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/la-fortuna-fabric",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_yNRABi": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/LaFortunaPastels_Fabric_Full_b55d58fd-bcb6-4b1e-b986-ddee01a1bc73.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/la-fortuna-fabric",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_Xw6qbR": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/LaFortunaSageGreenBlue_Fabric_Full.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/la-fortuna-fabric",
+            "text_color": "text-light"
+          }
+        },
+        "image_aDjGQj": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify:\/\/shop_images\/LaFortunaBlueRed_Fabric_Full_70f26e4f-03e1-4006-9aaa-9aab96fa35c5.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/la-fortuna-fabric",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_yPEWw4",
+        "image_me7fBr",
+        "image_yNRABi",
+        "image_Xw6qbR",
+        "image_aDjGQj"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_video_Gd37Jp": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "six-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e8001d087a2b45cca4fc2a93398939b3.mp4",
+        "video_link": "",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "https:\/\/sisterparishdesign.com\/blogs\/tell-a-sister\/lessons-in-screenprinting",
+        "button_color": "btn--white",
+        "button_style": "btn--solid-border",
+        "button_size": "btn--small"
+      }
+    },
+    "section_grid_pkAaBY": {
+      "type": "section-grid",
+      "blocks": {
+        "image_aJVx3H": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/ScreenShot2023-10-30at10.05.32AM.png",
+            "overlay_opacity": 20,
+            "text_position": "center",
+            "subheading": "",
+            "title": "INTRODUCING",
+            "text": "Dot All Over Wallpaper",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/products\/dot-all-over-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_PULAVX": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/DotAllOverWheat_WP_Moulding_439e7e52-931f-482a-8192-3e857e8ce478.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_aJVx3H",
+        "image_PULAVX"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "auto",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 54,
+        "padding_bottom": 14
+      }
+    },
+    "section_grid_qXxwJX": {
+      "type": "section-grid",
+      "blocks": {
+        "image_TxGDyG": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/DotAllOverPink_WP_Moulding.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/dot-all-over-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_kzQjan": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/DotAllOverSeafoam_WP_Moulding_c4fd43d6-1217-48dc-af0f-93131883641a.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/dot-all-over-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_i6NfqU": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/DotAllOverPaperBagBrown_WP_Moulding.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/dot-all-over-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_MKfpid": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify:\/\/shop_images\/DotAllOverGreen_WP_Moulding.jpg",
+            "overlay_opacity": 0,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/dot-all-over-wallpaper",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_TxGDyG",
+        "image_kzQjan",
+        "image_i6NfqU",
+        "image_MKfpid"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "550",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 12,
+        "padding_bottom": 60
+      }
+    },
+    "2158316a-7e05-40d1-a29e-a377713e45db": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_747d2cba21a548ac8994d7350b344682.webp",
+        "subheading": "",
+        "title": "<p>\"I think that everyone must have a first memory of some house, some room, a vivid picture that will remain deep down in them forever.\"<\/p><p>-Sister Parish<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#fbcaff",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "text_content": "",
+        "text_alignment": "center",
+        "button_text": "",
+        "button_link": "https:\/\/sisterparishdesign.com\/pages\/shop-by-room-childrens-room",
+        "button_color": "btn--secondary",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "9c0639af-31f4-479f-8878-81fcfc3fbfa0": {
+      "type": "section-banner-image",
+      "blocks": {
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>What's New?<\/p>",
+            "size": 265,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#fbcaff",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Shop our latest collection of patterns that are guaranteed to stand the test of time.<\/strong><\/p>",
+            "size": 205
+          }
+        },
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-1",
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-2",
+        "template--18952593899841__9c0639af-31f4-479f-8878-81fcfc3fbfa0-16831285413c69ee80-3"
+      ],
+      "settings": {
+        "height": "three-quarters-height",
+        "enable_mobile_height": true,
+        "mobile_height": "five-fifty-height-mobile",
+        "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_ec311bb7725844cea3985d11638c7058_f8012fb6-7ef0-47bb-bfef-81b1d2117d04.webp",
+        "image_mobile": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_ec311bb7725844cea3985d11638c7058_1.webp",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": false,
+        "text_width": "wide",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258": {
+      "type": "section-grid",
+      "blocks": {
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-0": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_a95d9ce93b7b4bef94d99544004d2cf3.webp",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Tips & Tricks for Ordering Wallpaper",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_46637794efa34535ac5e00cb0ac0b5ac.webp",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Tips & Tricks for Ordering Textiles",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-0",
+        "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-1"
+      ],
+      "settings": {
+        "height": "fullscreen",
+        "heading_size": 140,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "22cf22fd-1087-48a3-b4d2-11c84e28336b": {
+      "type": "section-text",
+      "blocks": {
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Innovation is the ability to reach into the past and bring back what is good, what is useful, what is lasting.\"<\/p><p>-Sister Parish<\/p>",
+            "size": 145,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "size": 100
+          }
+        },
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-subheading-1",
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-heading-1",
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-text-1",
+        "template--16787069239517__22cf22fd-1087-48a3-b4d2-11c84e28336b-button-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "75f21869-c42a-41bd-aaf2-0bbbdcc17fd9": {
+      "type": "section-grid",
+      "blocks": {
+        "ee9c956d-5942-4adc-9595-bd5d4ab2a9c1": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_f0a6646f885e414c949fcd534f3cfba7.webp",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Our Story",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "c6b89e31-eeac-4aa9-8234-61f5219f7fc9": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify:\/\/shop_images\/assets_29b6d82f572c4fd6aa721fc5b2341e82_448794959e234df3b3a628e4d713dac2.webp",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "In The Press",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "ee9c956d-5942-4adc-9595-bd5d4ab2a9c1",
+        "c6b89e31-eeac-4aa9-8234-61f5219f7fc9"
+      ],
+      "settings": {
+        "height": "750",
+        "heading_size": 110,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "dce60df0-3e89-48d0-9578-925c93482c5f": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>\"Sister Parish Rises again . No longer just for the Kennedys and Astors: The great-granddaughter of a legendary decorator wants to make interior design more accessible.\"<\/p>",
+            "customer_name": "Jaci Conry",
+            "subheading": "<p>New York Times<\/p>"
+          }
+        },
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>\"The Spirit of Decorating Icon Sister Parish Lives on in This New York Home\"<\/p>",
+            "customer_name": "Douglas Brenner",
+            "subheading": "<p>Architectural Digest<\/p>"
+          }
+        },
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "text": "<p>\"Last year, she (Eliza) officially joined her mother, Susan Crater, at Sister Parish Design, where she carries on her family legacy, reproducing classic textiles from the firm’s archives and creating new ones fueled by Parish’s iconic style but reimagined for a younger generation.\"<\/p>",
+            "customer_name": "Hadley Keller",
+            "subheading": "<p>House Beautiful<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-4",
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-5",
+        "template--16787069239517__dce60df0-3e89-48d0-9578-925c93482c5f-testimonial-6"
+      ],
+      "settings": {
+        "title": "",
+        "text_size": 100,
+        "text_alignment": "text-center",
+        "bg_color": "#e1d4ce",
+        "testimonial_block_color": "#e1d4ce",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "a1e4422e-38f0-472d-a730-505c7ec8e899": {
+      "type": "section-text",
+      "blocks": {
+        "template--16787069239517__a1e4422e-38f0-472d-a730-505c7ec8e899-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<h2><a href=\"https:\/\/www.instagram.com\/SisterParishDesign\/\" target=\"_blank\">@SISTERPARISHDESIGN<\/a><\/h2>",
+            "size": 100,
+            "margin_bottom": -18
+          }
+        }
+      },
+      "block_order": [
+        "template--16787069239517__a1e4422e-38f0-472d-a730-505c7ec8e899-subheading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16978130441a705427": {
+      "type": "apps",
+      "blocks": {
+        "a021dad9-ecb7-447c-94cf-a56a06ab25ca": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "a021dad9-ecb7-447c-94cf-a56a06ab25ca"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 6,
+        "padding_bottom": 38
+      }
+    },
+    "f91dba82-a9f9-4019-9002-a16133ec5c98": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-center",
+        "text_color": "text-dark",
+        "title": "WELCOME TO SISTER PARISH DESIGN",
+        "text": "<p>Join the wonderful world of Sister Parish, for exclusive offers, first-looks, and the latest news from our studio.  <\/p>",
+        "extra_fields": "name",
+        "button_text": "Subscribe",
+        "bg_color": "#e1d4ce",
+        "image_height": "five-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper--full-padded",
+        "padding_top": 98,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_grid_EaPpyQ",
+    "section_image_GdPLHh",
+    "section_grid_pbdhBE",
+    "section_grid_B8xj8h",
+    "section_video_KDQgBP",
+    "section_grid_TVNazh",
+    "section_video_Gd37Jp",
+    "section_grid_pkAaBY",
+    "section_grid_qXxwJX",
+    "2158316a-7e05-40d1-a29e-a377713e45db",
+    "9c0639af-31f4-479f-8878-81fcfc3fbfa0",
+    "9e58ac81-e88d-4b2e-a006-c6d620af2258",
+    "22cf22fd-1087-48a3-b4d2-11c84e28336b",
+    "75f21869-c42a-41bd-aaf2-0bbbdcc17fd9",
+    "e4e4b5ec-149f-4f0b-bcdd-985d7cf8cf72",
+    "dce60df0-3e89-48d0-9578-925c93482c5f",
+    "a1e4422e-38f0-472d-a730-505c7ec8e899",
+    "16978130441a705427",
+    "f91dba82-a9f9-4019-9002-a16133ec5c98"
+  ]
+}

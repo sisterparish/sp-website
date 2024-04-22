@@ -1,0 +1,296 @@
+{% style %}
+    #designer-sign-up .section {
+        margin-bottom: 42px;
+    }
+    #designer-sign-up .section--page {
+        margin-top: 30px;
+    }
+    #designer-sign-up .section__title {
+        padding: 30px 0;
+        margin: 0 0 30px;
+        position: relative;
+        background: #f0f0f0;
+    }
+    #designer-sign-up .section__title .section__title-text {
+        font-family: minion-pro-display,serif;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 0;
+        color: #f92a2c;
+        text-transform: none;
+        margin: 0;
+        padding: 0;
+    }
+    #designer-sign-up .section__title--center {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #designer-sign-up .container {
+        padding: 0 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #designer-sign-up .container--medium {
+        max-width: 1200px;
+    }
+    #designer-sign-up .o-layout {
+        display: block;
+        padding: 0;
+        list-style: none;
+        margin: 0 0 0 -30px;
+        font-size: 0;
+    }
+    #designer-sign-up .o_layout__item {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 30px;
+        font-size: 1rem;
+    }
+    #designer-sign-up .rte {
+        margin-bottom: calc(var(--gutter) / 2);
+        font-size: calc(1rem * var(--adjust-body));
+    }
+    #designer-sign-up p {
+        margin: 0;
+        padding: 0;
+    }
+{% endstyle %}
+<section class="section section--page page">
+	<div class="section__title section__title--center">
+		<h1 class="section__title-text h2">{{ page.title }}</h1>
+	</div>
+	<div class="container container--medium">
+	
+		<div class="o-layout">
+			<div class="o-layout__item u-1-1 u-1-2_tab">
+				<div class="page__content rte">
+					{{ page.content }}
+				</div>
+			</div>
+			<div class="o-layout__item u-1-1 u-1-2_tab">
+				<div class="designer-signup-form">
+					{% comment %} Hulk Forms App custom form rendering script  {% endcomment %}
+					<div style="margin:0 auto;" class="pxFormGenerator" id="LfzpiljEcGztP1gXFwOjdg"></div>
+
+
+					{% comment %} {% form 'contact', class:'container' %}
+						{% if form.posted_successfully? %}
+						<script>
+						console.log('success')
+						</script>
+						{% endif %}
+
+						 {% render 'form-errors-custom' %}
+						<input type="hidden" id="customer_tags" name="contact[tags]" value="REQUESTED" /> 
+
+
+						<h2>Company Information</h2>
+		
+						<div class="field-group">
+							<div class="field">
+							<label for="business_name">Company Name</label>
+							<input type="text" value="" name="contact[note][Business Name]" id="business_name" class="required {% if form.errors contains 'business_name' %}error{% endif %}" placeholder="" />
+							</div>
+							<div class="field">
+							<label for="mailing-address">Mailing Address</label>
+							<input type="text" value="" name="contact[note][Mailing Address]" id="mailing-address" class="required {% if form.errors contains 'mailing-address' %} error{% endif %}" placeholder="" />
+							</div>
+							<div class="field">
+							<label for="mailing-address-2">Apartment, suite, etc.</label>
+							<input type="text" value="" name="contact[note][Mailing Address 2]" id="mailing-address-2" placeholder="" />
+							</div>
+							<div class="field">
+							<label for="city">City</label>
+							<input type="text" value="" name="contact[note][City]" id="city" class="required {% if form.errors contains 'city' %}error{% endif %}" placeholder="" />
+							</div>
+						</div>
+						<style>
+				
+						select#state{
+							font-size: 16px !important;
+							height: 100px;
+							-webkit-appearance: none;
+							background-position:unset;
+							background-repeat: unset ;
+							background-size: unset;
+							background-color: unset;
+							background-image: unset;
+								} 
+						</style>
+						<label for="state">State</label>
+						<select size=51 style="font-size:16px;" id="state" name="contact[note][State]">
+		
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+						</select>
+						<div class="field">
+							<label for="zip">ZIP Code</label>
+							<input type="text" value="" name="contact[note][ZIP]" id="zip" class="required {% if form.errors contains 'zip' %}error{% endif %}" placeholder="" />
+						</div>
+
+
+
+						<h2>Designer Information</h2>
+
+						<div class="field-group">
+							<div class="field">
+							<label for="first_name">First Name</label>
+							<input type="text" value="" name="contact[first_name]" id="first_name" class="required {% if form.errors contains 'first_name' %} error{% endif %}" placeholder="" />
+							</div>
+							<div class="field">
+							<label for="last_name">Last Name</label>
+							<input type="text" value="" name="contact[last_name]" id="last_name" class="required {% if form.errors contains 'last_name' %} error{% endif %}" placeholder="" />
+							</div>
+							<div class="field">
+							<label for="email">Email Address</label>
+							<input type="email" value="" name="contact[email]" id="email" class="required {% if form.errors contains 'email' %} error{% endif %}" placeholder="" />
+							</div>  
+							<div class="field">
+							<label for="phone">Phone Number</label>
+							<input type="text" value="" name="contact[note][Phone]" id="phone" class="required {% if form.errors contains 'phone' %} error{% endif %}" placeholder="" />
+							</div>
+						</div>
+
+						<h2>Additional Information</h2>
+
+						<div class="field-group">
+							<div class="field">  
+								<label for="how">Primary Client Work</label>
+								<select id="how" name="contact[note][Primary Client Work]">
+									<option>Select...</option>
+									<option>Residential</option>
+									<option>Commercial</option>
+									<option>Staging</option>
+									<option>Hospitality</option>
+									<option>Other</option>
+								</select>
+								<input type="text" value="" name="contact[note][Primary Client Work Other]" id="how-other" placeholder="Other..." class="hidden" />
+							</div>  
+							<div class="field">  
+								<label for="employees">Number of Employees</label>
+								<select id="employees" name="contact[note][Number of Employees]">
+									<option>Select...</option>
+									<option>Under 5</option>
+									<option>5 - 10</option>
+									<option>11 - 25</option>
+									<option>26 - 50</option>
+									<option>Over 50</option>
+								</select>
+							</div>
+							<div class="field">
+								<label for="password">Password</label>
+								<input type="password" value="" name="contact[password]" id="create_password" class="required {% if form.errors contains 'password' %}error{% endif %}" placeholder="" />
+							</div>
+							<div class="field file-upload">
+								<label for="myfile">Please upload a copy of your Resale Certificate:</label>
+								<input type="file" class="required" id="file-upload-btn" name="myfile">
+								<p>*This is required</p>
+							</div>
+							<div class="action-btn field-group">
+								<input id="register" type="submit" value="Submit Request" class="btn" disabled="disabled" />
+							</div>
+
+						</div>
+	
+					{% endform %}  {% endcomment %}
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+<script>
+	{% comment %} $(document).ready(function(){
+		function checkRequired(){
+			var empty = 0;
+			$('form#contact_form input.required:not(#file-upload-btn)').each(function(e) {
+				if ($(this).val() == '') {
+					empty += 1;
+					console.log('empty is', empty, $(this))
+				}
+			});
+			let fileUpload = $("#file-upload-btn")[0].files.length 
+			if(!fileUpload || fileUpload == 0){
+				empty += 1
+				console.log('no file uploaded yet ')
+			}
+			if (empty >= 1) {
+				$('#register').attr('disabled', 'disabled'); 
+			} else {
+				$('#register').removeAttr('disabled'); 
+			}
+		}
+
+		$('form#contact_form input[type=text], form#contact_form input[type=password], form#contact_form input[type=email]').keyup(function() {
+			checkRequired()
+		});
+		$("#file-upload-btn").change(function(){
+			checkRequired()
+		})
+		$("#employees").change(function(){
+			checkRequired()
+		})
+		$('#how').change(function() {
+			checkRequired()
+			var val = $(this).val();
+			
+			if (val == "Other")
+				$('#how-other').removeClass('hidden');
+			else
+				$('#how-other').addClass('hidden');
+		});
+	}) {% endcomment %}
+</script>
